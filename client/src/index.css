@@ -20,3 +20,9 @@ button:focus,
 a:focus {
   outline: none;
 }
+
+p, h1 {
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
+  margin: none;
+}
