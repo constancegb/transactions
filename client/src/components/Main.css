@@ -1,6 +1,33 @@
-#main {
-  margin-left: 150px;
+/*
+*   yellow:
+*   background: #fcfcfc
+*/
+#menu {
+  display: flex;
+  flex-direction: column;
+  width: 17%;
+  background-color: #3d4751;
+  height: 100vh;
+}
+
+#menu-header {
+  background-color: #363d46;
+  width: 100%;
+  height: 60px;
+}
+
+.menu-groups {
+  display: flex;
+  flex-direction: column;
   padding: 30px;
-  height: 100%;
-  overflow: auto;
+  color: #848d98;
+  border-bottom: 1px solid lightgrey;
+}
+
+#header {
+  background-color: #ecb02e;
+  height: 60px;
+  width: 83%;
+  margin-left: 17%;
+  position: fixed;
 }

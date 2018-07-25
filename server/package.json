@@ -20,25 +20,7 @@
     "test": "npm run lint && npm run coverage"
   },
   "author": "Skwirrel",
-  "devDependencies": {
-    "@types/mocha": "2.2.41",
-    "chai": "4.0.2",
-    "chai-date-string": "0.1.0",
-    "dirty-chai": "2.0.1",
-    "eslint": "3.19.0",
-    "eslint-config-airbnb": "14.1.0",
-    "eslint-config-skwirrel": "1.0.6",
-    "eslint-plugin-chai-friendly": "~0.4.1",
-    "eslint-plugin-import": "2.2.0",
-    "mocha": "3.2.0",
-    "mocha-only-detector": "0.1.0",
-    "nock": "9.0.28",
-    "nodemon": "~1.11.0",
-    "nyc": "11.2.0",
-    "sinon": "2.3.2",
-    "sinon-chai": "2.12.0",
-    "supertest": "3.0.0"
-  },
+  "devDependencies": {},
   "dependencies": {
     "@skwirrel-mem/express-middleware": "1.0.0",
     "@skwirrel-mem/skwirrel-logger": "2.0.3",
@@ -49,6 +31,7 @@
     "joi": "13.0.1",
     "jwt-simple": "0.5.1",
     "lodash": "4.17.4",
+    "nodemon": "~1.18.3",
     "shelljs": "0.8.1",
     "superagent": "3.6.0"
   }

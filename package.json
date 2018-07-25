@@ -7,5 +7,9 @@
 	"workspaces": [
 		"server",
 		"client"
-	]
+	],
+	"dependencies": {
+		"prop-types": "^15.6.2",
+		"react-redux": "^5.0.7"
+	}
 }

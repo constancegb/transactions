@@ -1,5 +1,3 @@
-import { logout } from '../actions/logout';
-
 let store;
 
 export const get = (route, options) => {
@@ -21,7 +19,7 @@ export const callApi = (route, method, body, options) => {
   return fetch(`/api/${route}`, options).then(response => {
     if (!response.ok) {
       if (response.status === 401 || response.status === 403) {
-        store.dispatch(logout());
+        null
       }
       throw new Error(response.statusText);
     }
