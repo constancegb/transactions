@@ -1,0 +1,8 @@
+node_modules/
+*.log
+/coverage/
+.vscode/
+.idea/
+/doc/
+/src/server/public/
+/client/build/
